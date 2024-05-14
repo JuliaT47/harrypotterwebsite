@@ -30,3 +30,12 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.d1{
+    background: url("./images/tutors.png") no-repeat;
+    background-size: contain; 
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+}

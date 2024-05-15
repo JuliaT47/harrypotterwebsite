@@ -1,16 +1,18 @@
-import MainPage from "./MainPage1";
+import MainPage from "./MainPage";
+import StudentsPage from "./StudentsPage";
 import Api from "./api";
 
 
 function App() {
   return (
+    <>
     <div>
-      <header>
         <MainPage/>
         <Api/>
-      </header>
     </div>
-  );
+    <StudentsPage/>
+    </>
+  )
 }
 
 export default App;

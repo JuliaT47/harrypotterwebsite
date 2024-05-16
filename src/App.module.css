@@ -1,158 +1,215 @@
 body {
-    font-family: "Inter", sans-serif;
-    background: #1D1D1D;
-    margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #1d1d1d;
+  margin: 0;
 }
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 h3 {
-    font-weight: 500;
-    font-size: 26px;
-    color: #FFFFFF
+  font-weight: 500;
+  font-size: 26px;
+  color: #ffffff;
+  margin: 5px 0;
 }
-p{
-    color: #FABF59;
-    font-weight: 400;
-    font-size: 16px;
+p {
+  color: #fabf59;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 5px 0;
 }
 .header {
-    margin: 0;
-    padding-top: 100px;
-    padding-bottom: 80px;
-    color: #FABF59;
-    font-weight: 700;
-    font-size: 80px;
-    text-align: center;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  color: #fabf59;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
 }
 .background {
-    background: 
+  background:
     linear-gradient(rgba(29, 29, 29, 0.5), rgba(29, 29, 29, 0.5)),
-    url("./images/harrypottermain.png") no-repeat; 
-    width: 100%;
-    min-height: 100vh;
-    background-position: top;
-    display: grid;
-    place-items: center;
+    url('./images/harrypottermain.png') no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  background-position: top;
+  display: grid;
+  place-items: center;
 }
 .showCharactersBtn {
-    width: 300px;
-    height: 60px;
-    border-radius: 100px;
-    border: none;
-    background-color: #f9b50c;
-    font-weight: 700;
-    font-size: 18px;
+  width: 300px;
+  height: 60px;
+  border-radius: 100px;
+  border: none;
+  background-color: #f9b50c;
+  font-weight: 700;
+  font-size: 18px;
 }
-.students{
-    background: url("./images/students.png") no-repeat;
-    background-size: contain; 
-    width: 350px;
-    height: 350px;
-    margin: 0 10px
+.students {
+  background: url('./images/students.png') no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  margin: 0 10px;
 }
-.tutors{
-    background: url("./images/tutors.png") no-repeat;
-    background-size: contain; 
-    width: 350px;
-    height: 350px;
-    margin: 0 10px
+.tutors {
+  background: url('./images/tutors.png') no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  margin: 0 10px;
 }
 .characters {
-    background: url(./images/characters.png) no-repeat;
-    background-size: contain; 
-    width: 350px;
-    height: 350px;
-    margin: 0 10px
+  background: url(./images/characters.png) no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  margin: 0 10px;
 }
 .charactersPopUp {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 180px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 180px;
 }
 .popUpBtn {
-    width: 250px;
-    height: 50px;
-    border-radius: 100px;
-    background-color: transparent;
-    color: #F9B50C;
-    border: 1px solid #F9B50C;
-    font-weight: 700;
-    font-size: 18px;
-    margin: 0 50px;
+  width: 250px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: transparent;
+  color: #f9b50c;
+  border: 1px solid #f9b50c;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 50px;
 }
 .buttons {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 .h1Students {
-    color: #FABF59;
-    font-weight: 700;
-    font-size: 80px;
-    text-align: center;
-    margin: 0; 
-    padding: 40px 0; 
+  color: #fabf59;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+  margin: 0;
+  padding: 40px 0;
 }
-.backgroundStudents{
-    color: #1D1D1D;
-    padding: 40px 0;
+.backgroundStudents {
+  color: #1d1d1d;
+  padding: 40px 0;
 }
-.potter{
-    background: linear-gradient(360deg,rgb(15, 15, 15) 0%, rgba(15, 15, 15, 0.74) 30%, rgba(15, 15, 15, 0) 70%),
+.potter {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
     url(./images/Potter.png) no-repeat;
-    width: 290px;
-    height: 450px;
-    background-size: contain; 
 }
-.granger{
-    background: linear-gradient(360deg,rgb(15, 15, 15) 0%, rgba(15, 15, 15, 0.74) 30%, rgba(15, 15, 15, 0) 70%),
+.granger {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
     url(./images/Granger.png) no-repeat;
-    width: 290px;
-    height: 450px;
-    background-size: contain; 
 }
-.weasley{
-    background: linear-gradient(360deg,rgb(15, 15, 15) 0%, rgba(15, 15, 15, 0.74) 30%, rgba(15, 15, 15, 0) 70%),
+.weasley {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
     url(./images/Weasley.png) no-repeat;
-    width: 290px;
-    height: 450px;
-    background-size: contain; 
 }
-.malfoy{
-    background: linear-gradient(360deg,rgb(15, 15, 15) 0%, rgba(15, 15, 15, 0.74) 30%, rgba(15, 15, 15, 0) 70%),
+.malfoy {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
     url(./images/Malfoy.png) no-repeat;
-    width: 290px;
-    height: 450px;
-    background-size: contain; 
 }
-.diggory{
-    background: linear-gradient(360deg,rgb(15, 15, 15) 0%, rgba(15, 15, 15, 0.74) 30%, rgba(15, 15, 15, 0) 70%),
+.diggory {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
     url(./images/Diggory.png) no-repeat;
-    width: 290px;
-    height: 450px;
-    background-size: contain; 
 }
-.chang{
-    background: linear-gradient(360deg,rgb(15, 15, 15) 0%, rgba(15, 15, 15, 0.74) 30%, rgba(15, 15, 15, 0) 70%),
+.chang {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
     url(./images/Chang.png) no-repeat;
-    width: 290px;
-    height: 450px;
-    background-size: contain; 
 }
-.longbottom{
-    background: linear-gradient(360deg,rgb(15, 15, 15) 0%, rgba(15, 15, 15, 0.74) 30%, rgba(15, 15, 15, 0) 70%),
+.longbottom {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
     url(./images/Longbottom.png) no-repeat;
-    width: 290px;
-    height: 450px;
-    background-size: contain; 
 }
-.lovegood{
-    background: linear-gradient(360deg,rgb(15, 15, 15) 0%, rgba(15, 15, 15, 0.74) 30%, rgba(15, 15, 15, 0) 70%),
+.lovegood {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
     url(./images/Lovegood.png) no-repeat;
-    width: 290px;
-    height: 450px;
-    background-size: contain; 
 }
-
-
+.studentsDiv1,
+.studentsDiv2 {
+  display: flex;
+  justify-content: space-around;
+}
+.studentCard {
+  width: 290px;
+  height: 450px;
+  background-size: contain;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.moreInfo {
+  font-weight: 500;
+  color: #ffffff;
+}
+.svgBtn {
+  background: transparent;
+  border: none;
+}
+.arrowSvg {
+  margin-bottom: -4px;
+  opacity: 2;
+}
+.circleSvg {
+  margin: -4px -10px;
+  opacity: 1;
+}

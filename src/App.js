@@ -1,18 +1,21 @@
-import MainPage from "./MainPage";
-import StudentsPage from "./StudentsPage";
-import Api from "./api";
-
+import MainPage from './MainPage';
+import StaffPage from './StaffPage';
+import StudentsPage from './StudentsPage';
+import Api from './api';
+import CharactersPage from './CharactersPage';
 
 function App() {
   return (
     <>
-    <div>
-        <MainPage/>
-        <Api/>
-    </div>
-    <StudentsPage/>
+      <div>
+        <MainPage />
+        <Api />
+      </div>
+      <StudentsPage />
+      <StaffPage />
+      <CharactersPage />
     </>
-  )
+  );
 }
 
 export default App;

@@ -89,15 +89,16 @@ p {
   justify-content: space-around;
   margin-top: 20px;
 }
-.h1Students {
+.h1Cards {
   color: #fabf59;
   font-weight: 700;
   font-size: 80px;
   text-align: center;
   margin: 0;
   padding: 40px 0;
+  text-transform: uppercase;
 }
-.backgroundStudents {
+.cardsContainer {
   color: #1d1d1d;
   padding: 40px 0;
 }
@@ -181,17 +182,18 @@ p {
     ),
     url(./images/Lovegood.png) no-repeat;
 }
-.studentsDiv1,
-.studentsDiv2 {
+.cardsDiv1,
+.cardsDiv2 {
   display: flex;
   justify-content: space-around;
 }
-.studentCard {
+.card {
   width: 290px;
   height: 450px;
   background-size: contain;
   margin: 10px;
   padding: 20px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -207,9 +209,111 @@ p {
 }
 .arrowSvg {
   margin-bottom: -4px;
-  opacity: 2;
+  position: relative;
+  z-index: 2;
 }
 .circleSvg {
   margin: -4px -10px;
-  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
+.mcGonagall {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/McGonagall.png) no-repeat;
+}
+.snape {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Snape.png) no-repeat;
+}
+.hagrid {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Hagrid.png) no-repeat;
+}
+.lupin {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Lupin.png) no-repeat;
+}
+.slughorn {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Slughorn.png) no-repeat;
+}
+.umbridge {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Umbridge.png) no-repeat;
+}
+.filch {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Filch.png) no-repeat;
+}
+.dumbledore {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Dumbledore.png) no-repeat;
+}
+.weasleyGinny {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/GinnyWeasley.png) no-repeat;
+}
+.black {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Black.png) no-repeat;
 }

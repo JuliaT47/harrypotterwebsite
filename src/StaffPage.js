@@ -1,19 +1,19 @@
 import styles from './App.module.css';
 
-const StudentsPage = () => {
+const StaffPage = () => {
   return (
     <>
       <div className={styles.cardsContainer}>
-        <h1 className={styles.h1Cards}>Hogwarts' students</h1>
+        <h1 className={styles.h1Cards}>Hogwarts' staff</h1>
       </div>
       <div className={styles.cardsDiv1}>
-        <div className={`${styles.potter} ${styles.card}`}>
-          <h3>Harry Potter</h3>
+        <div className={`${styles.mcGonagall} ${styles.card}`}>
+          <h3>Minerva McGonagall</h3>
           <p>
-            The Boy Who Lived
+            Professor
             <br /> Gryffindor
             <br />
-            31-07-1980
+            4-10-1925
           </p>
           <p className={styles.moreInfo}>
             More information{' '}
@@ -49,11 +49,13 @@ const StudentsPage = () => {
             </button>
           </p>
         </div>
-        <div className={`${styles.granger} ${styles.card}`}>
-          <h3>Hermione Granger</h3>
+        <div className={`${styles.snape} ${styles.card}`}>
+          <h3>Severus Snape</h3>
           <p>
-            Know-it-all <br /> Gryffindor <br />
-            19-09-1979
+            Half-Blood Princ
+            <br /> Slytherin
+            <br />
+            09-01-1960
           </p>
           <p className={styles.moreInfo}>
             More information{' '}
@@ -89,12 +91,13 @@ const StudentsPage = () => {
             </button>
           </p>
         </div>
-        <div className={`${styles.weasley} ${styles.card}`}>
-          <h3>Ron Weasley</h3>{' '}
+        <div className={`${styles.hagrid} ${styles.card}`}>
+          <h3>Rubeus Hagrid</h3>
           <p>
-            Dragomir Despard <br />
-            Gryffindor <br />
-            01-03-1980
+            Dragomir Despard
+            <br /> Gryffindor
+            <br />
+            06-12-1928
           </p>
           <p className={styles.moreInfo}>
             More information{' '}
@@ -130,12 +133,13 @@ const StudentsPage = () => {
             </button>
           </p>
         </div>
-        <div className={`${styles.malfoy} ${styles.card}`}>
-          <h3>Draco Malfoy</h3>{' '}
+        <div className={`${styles.lupin} ${styles.card}`}>
+          <h3>Remus Lupin</h3>
           <p>
-            Pure-blood <br />
-            Slytherin <br />
-            05-06-1980
+            Professor Lupin, Moony
+            <br /> Gryffindor
+            <br />
+            10-03-1960
           </p>
           <p className={styles.moreInfo}>
             More information{' '}
@@ -173,12 +177,13 @@ const StudentsPage = () => {
         </div>
       </div>
       <div className={styles.cardsDiv2}>
-        <div className={`${styles.diggory} ${styles.card}`}>
-          <h3>Cedric Diggory</h3>{' '}
+        <div className={`${styles.slughorn} ${styles.card}`}>
+          <h3>Horace Slughorn</h3>
           <p>
-            Ced <br />
-            Hufflepuff <br />
-            31-07-1980
+            Professor
+            <br /> Slytherin
+            <br />
+            4-10-1925
           </p>
           <p className={styles.moreInfo}>
             More information{' '}
@@ -214,12 +219,13 @@ const StudentsPage = () => {
             </button>
           </p>
         </div>
-        <div className={`${styles.chang} ${styles.card}`}>
-          <h3>Cho Chang</h3>{' '}
+        <div className={`${styles.umbridge} ${styles.card}`}>
+          <h3>Dolores Umbridge</h3>
           <p>
-            Seeker <br />
-            Ravenclaw <br />
-            07-04-1979
+            Professor
+            <br /> Slytherin
+            <br />
+            4-10-1925
           </p>
           <p className={styles.moreInfo}>
             More information{' '}
@@ -255,13 +261,13 @@ const StudentsPage = () => {
             </button>
           </p>
         </div>
-        <div className={`${styles.longbottom} ${styles.card}`}>
-          <h3>Neville Longbottom</h3>{' '}
+        <div className={`${styles.filch} ${styles.card}`}>
+          <h3>Argus Filch</h3>
           <p>
-            {' '}
-            Head of Gryffindor House <br />
-            Gryffindor <br />
-            30-07-1980
+            Guard
+            <br /> Gryffindor
+            <br />
+            4-10-1925
           </p>
           <p className={styles.moreInfo}>
             More information{' '}
@@ -297,12 +303,13 @@ const StudentsPage = () => {
             </button>
           </p>
         </div>
-        <div className={`${styles.lovegood} ${styles.card}`}>
-          <h3>Luna Lovegood</h3>{' '}
+        <div className={`${styles.dumbledore} ${styles.card}`}>
+          <h3>Albus Dumbledore</h3>
           <p>
-            Née Lovegood <br />
-            Ravenclaw <br />
-            13-02-1981
+            Professor Dumbledor
+            <br /> Gryffindor
+            <br />
+            4-10-1925
           </p>
           <p className={styles.moreInfo}>
             More information{' '}
@@ -343,4 +350,4 @@ const StudentsPage = () => {
   );
 };
 
-export default StudentsPage;
+export default StaffPage;

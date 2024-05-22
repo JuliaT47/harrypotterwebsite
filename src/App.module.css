@@ -47,6 +47,11 @@ p {
   font-weight: 700;
   font-size: 18px;
 }
+.showCharactersBtn:hover {
+  background-color: transparent;
+  color: #f9b50c;
+  border: 1px solid #f9b50c;
+}
 .students {
   background: url('./images/students.png') no-repeat;
   background-size: contain;
@@ -84,23 +89,28 @@ p {
   font-size: 18px;
   margin: 0 50px;
 }
+.popUpBtn:hover {
+  background-color: #f9b50c;
+  color: #1d1d1d;
+}
 .buttons {
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+  margin: 20px 0 40px 0;
 }
 .h1Cards {
   color: #fabf59;
   font-weight: 700;
   font-size: 80px;
   text-align: center;
-  margin: 0;
-  padding: 40px 0;
+  margin: 0 auto;
+  padding-bottom: 40px;
   text-transform: uppercase;
+  max-width: 1200px;
 }
 .cardsContainer {
   color: #1d1d1d;
-  padding: 40px 0;
+  padding-bottom: 30px;
 }
 .potter {
   background:
@@ -111,6 +121,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Potter.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .granger {
   background:
@@ -121,6 +133,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Granger.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .weasley {
   background:
@@ -131,6 +145,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Weasley.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .malfoy {
   background:
@@ -141,6 +157,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Malfoy.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .diggory {
   background:
@@ -151,6 +169,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Diggory.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .chang {
   background:
@@ -161,6 +181,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Chang.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .longbottom {
   background:
@@ -171,6 +193,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Longbottom.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .lovegood {
   background:
@@ -181,6 +205,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Lovegood.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .cardsDiv1,
 .cardsDiv2 {
@@ -226,6 +252,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/McGonagall.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .snape {
   background:
@@ -236,6 +264,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Snape.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hagrid {
   background:
@@ -246,6 +276,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Hagrid.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .lupin {
   background:
@@ -256,6 +288,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Lupin.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .slughorn {
   background:
@@ -266,6 +300,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Slughorn.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .umbridge {
   background:
@@ -276,6 +312,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Umbridge.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .filch {
   background:
@@ -286,6 +324,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Filch.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .dumbledore {
   background:
@@ -296,6 +336,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Dumbledore.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .weasleyGinny {
   background:
@@ -306,6 +348,8 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/GinnyWeasley.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .black {
   background:
@@ -316,4 +360,33 @@ p {
       rgba(15, 15, 15, 0) 70%
     ),
     url(./images/Black.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.houses {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #d9d9d9;
+  border-radius: 100px;
+  margin-bottom: 40px;
+}
+.housesBtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  border-radius: 100px;
+  width: 315px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.housesBtn:hover,
+.housesBtn:active {
+  background-color: #f9b50c;
+  color: #1d1d1d;
 }
